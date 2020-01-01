@@ -16,10 +16,8 @@ canvas {
 
 #car {
   position: absolute;
-  top: -8px;
-  left: -4px;
-  width: 8px;
-  height: 16px;
-  background-color: #ff3300;
-  border-radius: 2px;
+  top: -16px;
+  left: -8px;
+  width: 16px;
+  height: 32px;
 }
