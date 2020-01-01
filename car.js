@@ -6,14 +6,14 @@ const ctx = canvas.getContext('2d');
 
 const car = document.getElementById('car');
 
-const maxPower = 0.075;
+const maxPower = 0.01;
 const maxBrakingPower = 0.0375;
 const powerFactor = 0.001;
 const brakingFactor = 0.0005;
 
 const drag = 0.95;
 const angularDrag = 0.95;
-const turnSpeed = 0.002;
+const turnSpeed = 0.001;
 
 let power = 0;
 let brakingPower = 0;
